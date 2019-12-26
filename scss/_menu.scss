@@ -12,7 +12,8 @@
     width: 28px;
     height: 3px;
     margin: 0px 0px 5px 0px;
-    background: #ffffff;
+    /* function if white then black or contrary */
+    background: set-text-color($primary-color);
     @include easeOut();
   }
 
@@ -115,7 +116,8 @@
     text-transform: uppercase;
     padding: 1rem, 0;
     font-weight: 300;
-    color: #ffffff;
+    /* function to change color of links */
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut();
 
